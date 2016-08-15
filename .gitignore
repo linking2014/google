@@ -1,0 +1,29 @@
+/.idea/
+/vendor/
+libs/
+/sdk
+/examples/webserver.log
+/cache/
+/examples/websocket.log
+
+# system
+.DS_Store
+Thumbs.db
+
+# editor
+.idea
+.project
+.settings
+
+# build
+.sass-cache
+.build
+
+# tools
+.svn/
+
+# node.js
+npm-debug.log
+node_modules/
+/nbproject/private/
+nbproject/project.xml
