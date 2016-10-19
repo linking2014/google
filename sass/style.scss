@@ -1,0 +1,122 @@
+@import "anim";
+
+@font-face {
+    font-family: 'catull';
+    src: url('font/catull-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/catull-webfont.woff') format('woff'),
+         url('font/catull-webfont.ttf') format('truetype'),
+         url('font/catull-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    margin-top: -320px;
+    margin-left: -600px;
+    width: 1200px;
+    height: 640px;
+}
+.circle {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: -116px;
+    z-index: 10;
+    transform: translateX(-50%) scale(0.07);
+    animation: scale 3s forwards;
+    margin-left: 12px;
+    width: 800px;
+    height: 800px;
+    background-color: #eee;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #eee;
+}
+h1 {
+    overflow: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 50;
+    transform: translate(-50%, -50%) scale(0.6);
+    transition: all 2s;
+    animation: google 3s forwards;
+    font-weight: normal;
+    font-size: 0;
+    line-height: 100px;
+    margin: 0;
+    & > span {
+        //display: inline-block;
+        float: left;
+        color: #fff;
+        opacity: 0;
+        font-family: catull !important;
+        font-size: 120px;
+    }
+}
+
+.g1 {
+    animation: color1 3s forwards;
+    transform-origin: 100% 50%;
+}
+
+.g2 {
+    animation: color2 3s forwards;
+    transform-origin:100% 50%;
+}
+
+.g3 {
+    animation: color3 3s forwards;
+}
+
+.g4 {
+    margin-left: -10px;
+    padding-left: 10px;
+    animation: color4 3s forwards;
+    transform-origin:0 50%;
+}
+
+.g5 {
+    animation: color5 3s forwards;
+    transform-origin:0 50%;
+}
+
+.g6 {
+    animation: color6 3s forwards;
+    transform-origin:0 50%;
+}
+
+input {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 100;
+    //margin-left: 4px;
+    margin-left: -190px;
+    padding: 10px 16px;
+    width: 346px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #999;
+    font-size: 24px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+    transform: translate(-50%, 325px);
+    animation: input 3s forwards;
+}
