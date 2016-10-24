@@ -32,13 +32,14 @@ html,body {
     text-align: center;
 }
 .circle {
+    will-change: transform, opacity;
     opacity: 0;
     position: absolute;
     left: 50%;
     top: -116px;
     z-index: 10;
     transform: translateX(-50%) scale(0.07);
-    animation: scale 3s forwards;
+    animation: circle 3s forwards;
     margin-left: 12px;
     width: 800px;
     height: 800px;
@@ -47,16 +48,15 @@ html,body {
     box-shadow: 0 0 10px #eee;
 }
 h1 {
-    //position: absolute;
+    will-change: transform, text-shadow;
     display: inline-block;
     position: relative;
     top: 50%;
-    //left: 50%;
     z-index: 50;
     margin: 0;
     transform: translate(0, -50%) scale(0.6);
     transition: all 2s;
-    animation: google 3s forwards;
+    animation: text 3s forwards;
     font-weight: normal;
     font-size: 0;
     line-height: 100px;
@@ -93,6 +93,7 @@ h1 {
             30px 30px rgba(253,253,253,0),
             31px 31px rgba(253,253,253,0);
     & > span {
+        will-change: transform, color, opacity;
         //display: inline-block;
         float: left;
         color: #fff;
@@ -103,37 +104,38 @@ h1 {
 }
 
 .g1 {
-    animation: color1 3s forwards;
+    animation: text1 3s forwards;
     transform-origin: 100% 50%;
 }
 
 .g2 {
-    animation: color2 3s forwards;
+    animation: text2 3s forwards;
     transform-origin:100% 50%;
 }
 
 .g3 {
-    animation: color3 3s forwards;
+    animation: text3 3s forwards;
 }
 
 .g4 {
     margin-left: -10px;
     padding-left: 10px;
-    animation: color4 3s forwards;
+    animation: text4 3s forwards;
     transform-origin:0 50%;
 }
 
 .g5 {
-    animation: color5 3s forwards;
+    animation: text5 3s forwards;
     transform-origin:0 50%;
 }
 
 .g6 {
-    animation: color6 3s forwards;
+    animation: text6 3s forwards;
     transform-origin:0 50%;
 }
 
 input {
+    will-change: transform, opacity;
     opacity: 0;
     position: absolute;
     left: 50%;

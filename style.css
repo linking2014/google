@@ -1,4 +1,4 @@
-@-webkit-keyframes scale {
+@-webkit-keyframes circle {
   0% {
     -webkit-transform: translateX(-50%) scale(0.07);
     transform: translateX(-50%) scale(0.07);
@@ -16,7 +16,7 @@
     transform: translateX(-50%) scale(3);
     opacity: 1; } }
 
-@-moz-keyframes scale {
+@-moz-keyframes circle {
   0% {
     -moz-transform: translateX(-50%) scale(0.07);
     transform: translateX(-50%) scale(0.07);
@@ -34,7 +34,7 @@
     transform: translateX(-50%) scale(3);
     opacity: 1; } }
 
-@keyframes scale {
+@keyframes circle {
   0% {
     -webkit-transform: translateX(-50%) scale(0.07);
     -moz-transform: translateX(-50%) scale(0.07);
@@ -56,7 +56,7 @@
     transform: translateX(-50%) scale(3);
     opacity: 1; } }
 
-@-webkit-keyframes google {
+@-webkit-keyframes text {
   0% {
     -webkit-transform: translate(0, 0) scale(0.8);
     transform: translate(0, 0) scale(0.8); }
@@ -74,7 +74,7 @@
     transform: translate(0, -150px) scale(1);
     text-shadow: 1px 1px rgba(238, 238, 238, 0), 2px 2px rgba(238, 238, 238, 0), 3px 3px rgba(239, 239, 239, 0), 4px 4px rgba(239, 239, 239, 0), 5px 5px rgba(240, 240, 240, 0), 6px 6px rgba(240, 240, 240, 0), 7px 7px rgba(241, 241, 241, 0), 8px 8px rgba(241, 241, 241, 0), 9px 9px rgba(242, 242, 242, 0), 10px 10px rgba(242, 242, 242, 0), 11px 11px rgba(243, 243, 243, 0), 12px 12px rgba(244, 244, 244, 0), 13px 13px rgba(244, 244, 244, 0), 14px 14px rgba(245, 245, 245, 0), 15px 15px rgba(245, 245, 245, 0), 16px 16px rgba(246, 246, 246, 0), 17px 17px rgba(246, 246, 246, 0), 18px 18px rgba(247, 247, 247, 0), 19px 19px rgba(247, 247, 247, 0), 20px 20px rgba(248, 248, 248, 0), 21px 21px rgba(248, 248, 248, 0), 22px 22px rgba(249, 249, 249, 0), 23px 23px rgba(249, 249, 249, 0), 24px 24px rgba(250, 250, 250, 0), 25px 25px rgba(250, 250, 250, 0), 26px 26px rgba(251, 251, 251, 0), 27px 27px rgba(251, 251, 251, 0), 28px 28px rgba(252, 252, 252, 0), 29px 29px rgba(252, 252, 252, 0), 30px 30px rgba(253, 253, 253, 0), 31px 31px rgba(253, 253, 253, 0); } }
 
-@-moz-keyframes google {
+@-moz-keyframes text {
   0% {
     -moz-transform: translate(0, 0) scale(0.8);
     transform: translate(0, 0) scale(0.8); }
@@ -92,7 +92,7 @@
     transform: translate(0, -150px) scale(1);
     text-shadow: 1px 1px rgba(238, 238, 238, 0), 2px 2px rgba(238, 238, 238, 0), 3px 3px rgba(239, 239, 239, 0), 4px 4px rgba(239, 239, 239, 0), 5px 5px rgba(240, 240, 240, 0), 6px 6px rgba(240, 240, 240, 0), 7px 7px rgba(241, 241, 241, 0), 8px 8px rgba(241, 241, 241, 0), 9px 9px rgba(242, 242, 242, 0), 10px 10px rgba(242, 242, 242, 0), 11px 11px rgba(243, 243, 243, 0), 12px 12px rgba(244, 244, 244, 0), 13px 13px rgba(244, 244, 244, 0), 14px 14px rgba(245, 245, 245, 0), 15px 15px rgba(245, 245, 245, 0), 16px 16px rgba(246, 246, 246, 0), 17px 17px rgba(246, 246, 246, 0), 18px 18px rgba(247, 247, 247, 0), 19px 19px rgba(247, 247, 247, 0), 20px 20px rgba(248, 248, 248, 0), 21px 21px rgba(248, 248, 248, 0), 22px 22px rgba(249, 249, 249, 0), 23px 23px rgba(249, 249, 249, 0), 24px 24px rgba(250, 250, 250, 0), 25px 25px rgba(250, 250, 250, 0), 26px 26px rgba(251, 251, 251, 0), 27px 27px rgba(251, 251, 251, 0), 28px 28px rgba(252, 252, 252, 0), 29px 29px rgba(252, 252, 252, 0), 30px 30px rgba(253, 253, 253, 0), 31px 31px rgba(253, 253, 253, 0); } }
 
-@keyframes google {
+@keyframes text {
   0% {
     -webkit-transform: translate(0, 0) scale(0.8);
     -moz-transform: translate(0, 0) scale(0.8);
@@ -114,7 +114,7 @@
     transform: translate(0, -150px) scale(1);
     text-shadow: 1px 1px rgba(238, 238, 238, 0), 2px 2px rgba(238, 238, 238, 0), 3px 3px rgba(239, 239, 239, 0), 4px 4px rgba(239, 239, 239, 0), 5px 5px rgba(240, 240, 240, 0), 6px 6px rgba(240, 240, 240, 0), 7px 7px rgba(241, 241, 241, 0), 8px 8px rgba(241, 241, 241, 0), 9px 9px rgba(242, 242, 242, 0), 10px 10px rgba(242, 242, 242, 0), 11px 11px rgba(243, 243, 243, 0), 12px 12px rgba(244, 244, 244, 0), 13px 13px rgba(244, 244, 244, 0), 14px 14px rgba(245, 245, 245, 0), 15px 15px rgba(245, 245, 245, 0), 16px 16px rgba(246, 246, 246, 0), 17px 17px rgba(246, 246, 246, 0), 18px 18px rgba(247, 247, 247, 0), 19px 19px rgba(247, 247, 247, 0), 20px 20px rgba(248, 248, 248, 0), 21px 21px rgba(248, 248, 248, 0), 22px 22px rgba(249, 249, 249, 0), 23px 23px rgba(249, 249, 249, 0), 24px 24px rgba(250, 250, 250, 0), 25px 25px rgba(250, 250, 250, 0), 26px 26px rgba(251, 251, 251, 0), 27px 27px rgba(251, 251, 251, 0), 28px 28px rgba(252, 252, 252, 0), 29px 29px rgba(252, 252, 252, 0), 30px 30px rgba(253, 253, 253, 0), 31px 31px rgba(253, 253, 253, 0); } }
 
-@-webkit-keyframes color1 {
+@-webkit-keyframes text1 {
   0% {
     color: #fff; }
   52% {
@@ -134,7 +134,7 @@
     opacity: 1;
     color: #1b70ee; } }
 
-@-moz-keyframes color1 {
+@-moz-keyframes text1 {
   0% {
     color: #fff; }
   52% {
@@ -154,7 +154,7 @@
     opacity: 1;
     color: #1b70ee; } }
 
-@keyframes color1 {
+@keyframes text1 {
   0% {
     color: #fff; }
   52% {
@@ -177,7 +177,7 @@
     opacity: 1;
     color: #1b70ee; } }
 
-@-webkit-keyframes color2 {
+@-webkit-keyframes text2 {
   0% {
     color: #fff; }
   40% {
@@ -199,7 +199,7 @@
     -webkit-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@-moz-keyframes color2 {
+@-moz-keyframes text2 {
   0% {
     color: #fff; }
   40% {
@@ -221,7 +221,7 @@
     -moz-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@keyframes color2 {
+@keyframes text2 {
   0% {
     color: #fff; }
   40% {
@@ -247,7 +247,7 @@
     -moz-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@-webkit-keyframes color3 {
+@-webkit-keyframes text3 {
   0% {
     color: #fff; }
   20% {
@@ -269,7 +269,7 @@
     -webkit-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@-moz-keyframes color3 {
+@-moz-keyframes text3 {
   0% {
     color: #fff; }
   20% {
@@ -291,7 +291,7 @@
     -moz-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@keyframes color3 {
+@keyframes text3 {
   0% {
     color: #fff; }
   20% {
@@ -317,7 +317,7 @@
     -moz-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@-webkit-keyframes color4 {
+@-webkit-keyframes text4 {
   0% {
     color: #fff; }
   30% {
@@ -339,7 +339,7 @@
     -webkit-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@-moz-keyframes color4 {
+@-moz-keyframes text4 {
   0% {
     color: #fff; }
   30% {
@@ -361,7 +361,7 @@
     -moz-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@keyframes color4 {
+@keyframes text4 {
   0% {
     color: #fff; }
   30% {
@@ -387,7 +387,7 @@
     -moz-transform: translate(0) scale(1);
     transform: translate(0) scale(1); } }
 
-@-webkit-keyframes color5 {
+@-webkit-keyframes text5 {
   0% {
     color: #fff; }
   40% {
@@ -413,7 +413,7 @@
     -webkit-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@-moz-keyframes color5 {
+@-moz-keyframes text5 {
   0% {
     color: #fff; }
   40% {
@@ -439,7 +439,7 @@
     -moz-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@keyframes color5 {
+@keyframes text5 {
   0% {
     color: #fff; }
   40% {
@@ -469,7 +469,7 @@
     -moz-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@-webkit-keyframes color6 {
+@-webkit-keyframes text6 {
   0% {
     color: #fff; }
   52% {
@@ -493,7 +493,7 @@
     -webkit-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@-moz-keyframes color6 {
+@-moz-keyframes text6 {
   0% {
     color: #fff; }
   52% {
@@ -517,7 +517,7 @@
     -moz-transform: translateY(0px) scale(1);
     transform: translateY(0px) scale(1); } }
 
-@keyframes color6 {
+@keyframes text6 {
   0% {
     color: #fff; }
   52% {
@@ -620,6 +620,7 @@ html, body {
   text-align: center; }
 
 .circle {
+  will-change: transform, opacity;
   opacity: 0;
   position: absolute;
   left: 50%;
@@ -628,9 +629,9 @@ html, body {
   -webkit-transform: translateX(-50%) scale(0.07);
   -moz-transform: translateX(-50%) scale(0.07);
   transform: translateX(-50%) scale(0.07);
-  -webkit-animation: scale 3s forwards;
-  -moz-animation: scale 3s forwards;
-  animation: scale 3s forwards;
+  -webkit-animation: circle 3s forwards;
+  -moz-animation: circle 3s forwards;
+  animation: circle 3s forwards;
   margin-left: 12px;
   width: 800px;
   height: 800px;
@@ -639,6 +640,7 @@ html, body {
   box-shadow: 0 0 10px #eee; }
 
 h1 {
+  will-change: transform, text-shadow;
   display: inline-block;
   position: relative;
   top: 50%;
@@ -650,14 +652,15 @@ h1 {
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   transition: all 2s;
-  -webkit-animation: google 3s forwards;
-  -moz-animation: google 3s forwards;
-  animation: google 3s forwards;
+  -webkit-animation: text 3s forwards;
+  -moz-animation: text 3s forwards;
+  animation: text 3s forwards;
   font-weight: normal;
   font-size: 0;
   line-height: 100px;
   text-shadow: 1px 1px rgba(238, 238, 238, 0), 2px 2px rgba(238, 238, 238, 0), 3px 3px rgba(239, 239, 239, 0), 4px 4px rgba(239, 239, 239, 0), 5px 5px rgba(240, 240, 240, 0), 6px 6px rgba(240, 240, 240, 0), 7px 7px rgba(241, 241, 241, 0), 8px 8px rgba(241, 241, 241, 0), 9px 9px rgba(242, 242, 242, 0), 10px 10px rgba(242, 242, 242, 0), 11px 11px rgba(243, 243, 243, 0), 12px 12px rgba(244, 244, 244, 0), 13px 13px rgba(244, 244, 244, 0), 14px 14px rgba(245, 245, 245, 0), 15px 15px rgba(245, 245, 245, 0), 16px 16px rgba(246, 246, 246, 0), 17px 17px rgba(246, 246, 246, 0), 18px 18px rgba(247, 247, 247, 0), 19px 19px rgba(247, 247, 247, 0), 20px 20px rgba(248, 248, 248, 0), 21px 21px rgba(248, 248, 248, 0), 22px 22px rgba(249, 249, 249, 0), 23px 23px rgba(249, 249, 249, 0), 24px 24px rgba(250, 250, 250, 0), 25px 25px rgba(250, 250, 250, 0), 26px 26px rgba(251, 251, 251, 0), 27px 27px rgba(251, 251, 251, 0), 28px 28px rgba(252, 252, 252, 0), 29px 29px rgba(252, 252, 252, 0), 30px 30px rgba(253, 253, 253, 0), 31px 31px rgba(253, 253, 253, 0); }
   h1 > span {
+    will-change: transform, color, opacity;
     float: left;
     color: #fff;
     opacity: 0;
@@ -665,53 +668,54 @@ h1 {
     font-size: 120px; }
 
 .g1 {
-  -webkit-animation: color1 3s forwards;
-  -moz-animation: color1 3s forwards;
-  animation: color1 3s forwards;
+  -webkit-animation: text1 3s forwards;
+  -moz-animation: text1 3s forwards;
+  animation: text1 3s forwards;
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
   transform-origin: 100% 50%; }
 
 .g2 {
-  -webkit-animation: color2 3s forwards;
-  -moz-animation: color2 3s forwards;
-  animation: color2 3s forwards;
+  -webkit-animation: text2 3s forwards;
+  -moz-animation: text2 3s forwards;
+  animation: text2 3s forwards;
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
   transform-origin: 100% 50%; }
 
 .g3 {
-  -webkit-animation: color3 3s forwards;
-  -moz-animation: color3 3s forwards;
-  animation: color3 3s forwards; }
+  -webkit-animation: text3 3s forwards;
+  -moz-animation: text3 3s forwards;
+  animation: text3 3s forwards; }
 
 .g4 {
   margin-left: -10px;
   padding-left: 10px;
-  -webkit-animation: color4 3s forwards;
-  -moz-animation: color4 3s forwards;
-  animation: color4 3s forwards;
+  -webkit-animation: text4 3s forwards;
+  -moz-animation: text4 3s forwards;
+  animation: text4 3s forwards;
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   transform-origin: 0 50%; }
 
 .g5 {
-  -webkit-animation: color5 3s forwards;
-  -moz-animation: color5 3s forwards;
-  animation: color5 3s forwards;
+  -webkit-animation: text5 3s forwards;
+  -moz-animation: text5 3s forwards;
+  animation: text5 3s forwards;
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   transform-origin: 0 50%; }
 
 .g6 {
-  -webkit-animation: color6 3s forwards;
-  -moz-animation: color6 3s forwards;
-  animation: color6 3s forwards;
+  -webkit-animation: text6 3s forwards;
+  -moz-animation: text6 3s forwards;
+  animation: text6 3s forwards;
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   transform-origin: 0 50%; }
 
 input {
+  will-change: transform, opacity;
   opacity: 0;
   position: absolute;
   left: 50%;

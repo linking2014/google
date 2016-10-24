@@ -1,4 +1,4 @@
-@keyframes scale {
+@keyframes circle {
   0% {
     transform: translateX(-50%) scale(0.07);
     opacity: 0;
@@ -17,7 +17,7 @@
   }
 }
 
-@keyframes google {
+@keyframes text {
   0% {
     transform: translate(0, 0) scale(0.8);
   }
@@ -130,7 +130,7 @@
   }
 }
 
-@keyframes color1 {
+@keyframes text1 {
   0% {
     color: #fff;
   }
@@ -157,7 +157,7 @@
   }
 }
 
-@keyframes color2 {
+@keyframes text2 {
   0% {
     color: #fff;
   }
@@ -183,7 +183,7 @@
   }
 }
 
-@keyframes color3 {
+@keyframes text3 {
   0% {
     color: #fff;
   }
@@ -209,7 +209,7 @@
   }
 }
 
-@keyframes color4 {
+@keyframes text4 {
   0% {
     color: #fff;
   }
@@ -235,7 +235,7 @@
   }
 }
 
-@keyframes color5 {
+@keyframes text5 {
   0% {
     color: #fff;
   }
@@ -269,7 +269,7 @@
   }
 }
 
-@keyframes color6 {
+@keyframes text6 {
   0% {
     color: #fff;
   }
