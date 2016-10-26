@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
     <title>Google</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<div class="container">
-    <div class="circle"></div>
-    <h1>
-        <span class="g1">G</span>
-        <span class="g2">o</span>
-        <span class="g3">o</span>
-        <span class="g4">g</span>
-        <span class="g5">l</span>
-        <span class="g6">e</span>
-    </h1>
-    <input type="text"/>
-</div>
+<form action="https://www.google.com/search" method="GET" onsubmit="return q.value!=''" role="search">
+    <div class="container">
+        <h1>
+            <span class="g1">G</span>
+            <span class="g2">o</span>
+            <span class="g3">o</span>
+            <span class="g4">g</span>
+            <span class="g5">l</span>
+            <span class="g6">e</span>
+        </h1>
+        <input maxlength="1024" name="q" autocomplete="off" title="Google 搜索" type="text" value="" aria-label="搜索" aria-haspopup="false" role="combobox" aria-autocomplete="both" dir="ltr" spellcheck="false">
+    </div>
+</form>
 </body>
 </html>
