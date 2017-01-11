@@ -692,9 +692,9 @@ html, body {
     margin: -294px 0 0 -239px;
     width: 500px;
     height: 500px;
-    background-color: #eee;
+    background-color: #edeeef;
     border-radius: 50%;
-    box-shadow: 0 0 10px 5px #eee; }
+    box-shadow: 0 0 10px 5px #edeeef; }
 
 h1 {
   will-change: transform, text-shadow;
